@@ -1,11 +1,22 @@
-import logo from './logo.svg';
+/* eslint-disable no-unused-vars */
 import './App.css';
-import navigationbar from './components/navigationbar';
+import NavigationBar from './components/navbar';
+import Intro from "./components/intro";
+import Trending from "./components/trending"
+
+import "./style/landingpage.css";
 function App() {
   return (
     <div>
-      <h>Testing</h>
-      <navigationbar />
+      {/* Intro Section */}
+      <div className="myBg" >
+        <NavigationBar />
+        <Intro />
+      </div>
+      {/* end of intro */}
+      <div className='trending'>
+        <Trending/>
+      </div>
     </div>
   );
 }

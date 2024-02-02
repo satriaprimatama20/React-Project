@@ -1,0 +1,26 @@
+.myBg {
+    height: 100vh;
+    background:url("/src/assets/images/bg/universe.jpg") ;
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending {
+    height: 100vh;
+    background:url("/src/assets/images/bg/cyberpunk.jpg");
+    background-size: cover;
+}
